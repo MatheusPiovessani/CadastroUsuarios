@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuários</title>
+</head>
+<div class="container">
+
+    <body>
+        <h1>Cadastro Usuários</h1>
+        <form>
+            <input id="nome" placeholder="Digite seu nome">
+            <input id="email" placeholder="Digite seu Email" type="email">
+            <input id="cpf" placeholder="Digite seu CPF" maxlength="11">
+            <button type="button" onclick="cadastrar()">Cadastrar</button>
+        </form>
+        <table id="tabelaUsuarios" border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>CPF</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <script src="script.js"></script>
+</div>
+</body>
+
+</html>
